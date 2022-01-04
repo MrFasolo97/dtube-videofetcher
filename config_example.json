@@ -1,0 +1,3 @@
+{
+  "mongo_address": "mongodb://127.0.0.1:27017/avalon?readPreference=primary&appname=onelove-fetcher&directConnection=true&ssl=false"
+}
