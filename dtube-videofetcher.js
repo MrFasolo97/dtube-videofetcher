@@ -81,7 +81,6 @@ async function main(options) {
   }
   if(options.tag != undefined) {
     var agg3 = filter(options.tag, options);
-    console.log(agg3);
     console.log(JSON.stringify(await fetcher(agg3, config)));
   }
 }
