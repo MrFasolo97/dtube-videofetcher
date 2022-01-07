@@ -3,7 +3,6 @@ const assert = require('assert');
 const fs = require('fs');
 const { Command } = require('commander');
 const restClient = require('sync-rest-client');
-const _ = require("lodash");
 
 
 async function fetcher(agg, config) {
