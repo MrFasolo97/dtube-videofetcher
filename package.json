@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "commander": "^8.3.0",
-    "mongodb": "^4.1.2"
+    "lodash": "^4.17.21",
+    "mongodb": "^4.1.2",
+    "sync-rest-client": "^1.0.3"
   }
 }
