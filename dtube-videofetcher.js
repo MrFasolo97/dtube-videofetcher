@@ -85,7 +85,7 @@ async function main(options) {
     if (agg4 !== false) {
       var list = await fetcher(agg4, config);
       for (var i=0; i<list.length; i++) {
-        list[i]["full_link"] = "https://d.tube/v/"+list[i]["_id"];
+        list[i] = "https://d.tube/v/"+list[i]["_id"];
       }
       var original_requests = [];
       list.forEach(element => {
